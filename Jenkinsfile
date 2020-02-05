@@ -20,7 +20,7 @@ pipeline {
 			
                 echo 'Running Cmd!' 
 				
-				bat'''java -jar firstClass.jar'''			
+				bat'''echo "Fix this"'''			
 				
 				
             }
