@@ -17,10 +17,16 @@ pipeline {
 		
 		stage('Run cmd') {		
             steps {
+		    
+		if(1==1)
+		    {
+			println    
+		    }
+			
 			
                 echo 'Running Cmd!' 
 				
-				bat'''echo "Fix this"'''			
+		bat'''echo "Fix this"'''			
 				
 				
             }
