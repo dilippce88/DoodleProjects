@@ -15,14 +15,17 @@ pipeline {
             }
         }
 		
-		stage('Run cmd') {		
+	stage('Run cmd') {		
             steps {
 		    
-		if(1==1)
+		    script{
+			     if(1==1)
 		    {
-			println    
+			println "Inside Script" 
+		    }		    
+		    
 		    }
-			
+		
 			
                 echo 'Running Cmd!' 
 				
